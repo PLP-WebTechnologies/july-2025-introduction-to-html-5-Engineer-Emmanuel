@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessible & SEO-Friendly HTML5 Page</title>
+    <meta name="description" content="A sample HTML5 web page implementing best practices for accessibility and SEO. Features semantic structure, logical headings, and human- and machine-readable content.">
+</head>
+<body>
+    <header>
+        <h1>Accessible and SEO-Friendly HTML5 Web Page</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about" aria-current="page">About</a></li>
+                <li><a href="#features">Key Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This sample page demonstrates <strong>semantic HTML5 structure</strong>, <strong>accessibility best practices</strong>, and <strong>beginner SEO techniques</strong>. Using only HTML, it is optimized for both users and search engines to ensure maximum reach and usability.</p>
+            <p>The webpage is created as a beginner friendly project to demonstrate the use of semantic HTML 5. This will be a good start up point to enjoy coding as a beginner and aspiring software engineer because understanding all these will form the basis os website development.</p>
+            </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Key Features</h2>
+
+            <article aria-labelledby="semantics-heading">
+                <h3 id="semantics-heading">Semantic Structure</h3>
+                <p>All sections use proper HTML5 semantic elements such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> for clarity and logical ordering.</p>
+            </article>
+
+            <article aria-labelledby="accessibility-heading">
+                <h3 id="accessibility-heading">Accessibility</h3>
+                <ul>
+                    <li>Landmarks (<code>main</code>, <code>nav</code>, etc.) assist screen readers.</li>
+                    <li>Headings are clearly ordered (<code>h1</code>, <code>h2</code>, <code>h3</code>).</li>
+                    <li>ARIA labels and descriptive attributes enhance navigation for assistive technologies.</li>
+                </ul>
+            </article>
+        
+            <article aria-labelledby="seo-heading">
+                <h3 id="seo-heading">SEO Best Practices</h3>
+                <ul>
+                    <li>Descriptive <code>&lt;title&gt;</code> and <code>&lt;meta name="description"&gt;</code> tags.</li>
+                    <li>Human-readable, keyword-rich content.</li>
+                    <li>Logical heading hierarchy and semantic markup to improve search engine crawling and indexing.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <address>
+                Email: <a href="emmanuelonyango955@gmail.com">message</a><br>
+                Phone: <a href="0700495115">call</a>
+            </address>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Accessible & SEO-Friendly Web Demo by Engineer Elton</p>
+    </footer>
+</body>
+</html>
